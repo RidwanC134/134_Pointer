@@ -10,7 +10,7 @@ class mahasiswa {
 };
 
 int main() {
-    mahasiswa mhs(1); // Object Mhs
+    mahasiswa mhs{1}; // Object Mhs
     mhs.showNim(); // Member Access Operator
 }
 
