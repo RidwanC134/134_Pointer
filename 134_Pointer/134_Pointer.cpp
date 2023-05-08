@@ -19,11 +19,6 @@ int main() {
 
     mahasiswa* pMhs = &mhs; // Pointer Deference pMhs
     pMhs->nim = 3; // Arrow Operator
+    mhs.showNim();
+    return 0;
 }
-    
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
