@@ -12,8 +12,10 @@ class mahasiswa {
 int main() {
     mahasiswa mhs{1}; // Object Mhs
     mhs.showNim(); // Member Access Operator
+
+    mahasiswa& refMhs = mhs; // Pointer Reference refMhs
 }
-mahasiswa& refMhs = mhs; // Pointer Reference refMhs
+    
 
 int main()
 {
