@@ -20,6 +20,6 @@ public:
 	void displayAll(orang &a);
 };
 
-void siswa::setNama(string pNama) {
-	nama = pNama;
+void siswa::displayAll(orang &a) {
+	cout << id << endl << a.nama;
 }
