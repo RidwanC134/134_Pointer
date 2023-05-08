@@ -9,6 +9,10 @@ class mahasiswa {
         }
 };
 
+int main() {
+    mahasiswa mhs(1); // Object Mhs
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
